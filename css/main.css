@@ -111,7 +111,7 @@
 
 .collection {
   position: relative;
-  padding-top: 248px;
+  padding: 248px 85px 0;
 }
 .collection .collection-types {
   display: flex;
@@ -120,7 +120,7 @@
   justify-content: space-between;
 }
 .collection .collection-types .collection-types__pocket {
-  width: 255px;
+  width: 253px;
   cursor: pointer;
 }
 .collection .collection-types .collection-types__pocket .type-info__heading {
@@ -140,9 +140,9 @@
   line-height: 26px;
   margin-top: 24px;
 }
-.collection .collection-heading .collection-heading__text {
+.collection .collection-heading__text {
   position: absolute;
-  font-size: 200px;
+  font-size: 170px;
   opacity: 0.5;
   text-align: center;
   background: -webkit-linear-gradient(#333 0%, #eee 60%, #eee 100%);
@@ -150,7 +150,8 @@
   -webkit-text-fill-color: transparent;
   font-weight: 900;
   font-family: "Fraunces", serif;
-  top: 110px;
+  top: 130px;
+  left: 100px;
 }
 
 .choose {
@@ -227,6 +228,7 @@
 
 .prepare {
   margin-top: 430px;
+  padding: 0 85px;
 }
 .prepare .alone .alone__title {
   font-family: "Fraunces", serif;
