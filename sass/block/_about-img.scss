@@ -1,0 +1,29 @@
+.about {
+  background-image: url(../images/aboutus_img.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1200px;
+  height: 560px;
+  margin-top: 70px;
+  padding: 117px 85px 0;
+  padding-right: 690px;
+
+  &__title {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+  }
+
+  &__description {
+    margin-top: 15px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+  }
+}

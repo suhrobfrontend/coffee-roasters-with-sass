@@ -1,0 +1,51 @@
+.collection {
+  position: relative;
+  padding-top: 248px;
+
+  .collection-types {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    justify-content: space-between;
+
+    .collection-types__pocket {
+      width: 255px;
+      cursor: pointer;
+
+      .type-info__heading {
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        font-size: 24px;
+        text-align: center;
+        color: #333D4B;
+      }
+      
+      .type-info__description {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #333D4B;
+        line-height: 26px;
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .collection-heading {
+
+    .collection-heading__text {
+      position: absolute;
+        font-size: 200px;
+        opacity: .5;
+        text-align: center;
+        background: -webkit-linear-gradient(#333 0%, #eee 60%, #eee 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 900;
+        font-family: 'Fraunces', serif;
+        top: 110px;
+    }
+  }
+}

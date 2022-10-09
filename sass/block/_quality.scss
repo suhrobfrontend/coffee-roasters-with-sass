@@ -1,0 +1,40 @@
+.quality {
+  width: 1200px;
+  height: 455px;
+  background-color: #2C343E;
+  border-radius: 10px;
+  margin-top: 240px;
+  padding: 88px 600px 0 80px;
+  display: flex;
+  position: relative;
+
+  .quality-text__title {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #FEFCF7;
+  }
+
+  .quality-text__description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+  }
+
+  .quality__thumb {
+    background-image: url(../images/quality-img.png);
+    width: 425px;
+    height: 464px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -85px;
+    left: 705px;
+  }
+}

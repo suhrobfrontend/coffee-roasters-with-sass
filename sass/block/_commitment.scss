@@ -1,0 +1,25 @@
+.commitment {
+  display: flex;
+  align-items: center;
+  gap: 105px;
+  padding: 0 80px;
+
+  .info-commitment__title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+  }
+
+  .info-commitment__description {
+    font-family: 'Barlow';
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    opacity: 0.8;
+  }
+}

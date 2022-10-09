@@ -1,0 +1,43 @@
+// Header
+
+.roaster-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  top: 0;
+  gap: 682px;
+  position: fixed;
+  background-color: #fff;
+  padding-top: 20px;
+
+  .nav__list {
+    list-style-type: none;
+    display: flex;
+    gap: 33px;
+
+    .nav__link {
+      text-decoration: none;
+      color: #83888F;
+      font-family: 'Barlow';
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 15px;
+      transition: .5s ease;
+    }
+
+    .nav__link_active {
+      text-decoration: none;
+      font-family: 'Barlow';
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 15px;
+      transition: .5s ease;
+      color: #333;
+    }
+    
+    .nav__link:hover {
+      color: #333;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.bitmap {
+  margin-top: 100px;
+
+  .bitmap__image {
+    background-image: url(../images/Bitmap_img.jpg);
+    width: 1200px;
+    height: 564px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 117px 660px 0 86px;
+
+    .bitmap__title {
+      font-family: 'Fraunces', serif;
+      color: #fff;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 72px;
+    }
+
+    .bitmap__description {
+      font-family: 'Barlow';
+      color: #fff;
+      font-weight: 400;
+      font-size: 16px;
+      width: 410px;
+      margin-top: 30px;
+    }
+
+    .main-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #0E8784;
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: 1px;
+      font-weight: 900;
+      font-size: 18px;
+      border-radius: 6px;
+      font-family: 'Fraunces', serif;
+      margin-top: 56px;
+      border: none;
+      outline: none;
+      transition: .5s ease;
+    }
+    
+    .main-btn:hover {
+      background-color: #0b5f5e;
+    }
+    
+    .main-btn:focus {
+      background-color: #66D2CF;
+    }
+    
+    .main-btn:active {
+      background-color: #66D2CF;
+    }
+  }
+}

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="./css/subscribe.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="roaster-header">
+          <div class="logo">
+            <h1 class="logo__heading">
+              <a href="subscribe.html" class="logo__link">
+                <img
+                  src="./images/logo.svg"
+                  alt="coffee roasters logo"
+                  class="logo__img"
+                  height="26px"
+                />
+              </a>
+            </h1>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="index.html" class="nav__link"> HOME </a>
+              </li>
+              <li class="nav__item">
+                <a href="about-us.html" class="nav__link"> ABOUT US </a>
+              </li>
+              <li class="nav__item">
+                <a href="subscribe.html" class="nav__link_active">
+                  CREATE YOUR PLAN
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Plan section -->
+      <section class="plan-section">
+        <div class="container">
+          <div class="create-plan">
+            <div class="create-plan__pic">
+              <h2 class="create-plan__title">Create a plan</h2>
+              <p class="create-plan__description">
+                Build a subscription plan that best fits your needs. We offer an
+                assortment of the best artisan coffees from around the globe
+                delivered fresh to your door.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Plan section -->
+
+      <!-- Prepare section -->
+      <section class="prepare-section">
+        <div class="container">
+          <div class="prepare">
+            <div class="prepare-block">
+              <div class="decoration">
+                <span class="decoration__line"></span>
+                <span class="decoration__ring"></span>
+                <span class="decoration__ring"></span>
+                <span class="decoration__ring"></span>
+              </div>
+              <div class="prepare__info">
+                <div class="prepare-methods">
+                  <div class="prepare-methods__block method">
+                    <h2 class="method__number">01</h2>
+                    <h3 class="method__title">Pick your coffee</h3>
+                    <p class="method__description">
+                      Select from our evolving range of artisan coffees. Our
+                      beans are ethically sourced and we pay fair prices for
+                      them. There are new coffees in all profiles every month
+                      for you to try out.
+                    </p>
+                  </div>
+                  <div class="prepare-methods__block method">
+                    <h2 class="method__number">02</h2>
+                    <h3 class="method__title">Choose the frequency</h3>
+                    <p class="method__description">
+                      Customize your order frequency, quantity, even your roast
+                      style and grind type. Pause, skip or cancel your
+                      subscription with no commitment through our online portal.
+                    </p>
+                  </div>
+                  <div class="prepare-methods__block method">
+                    <h2 class="method__number">03</h2>
+                    <h3 class="method__title">Receive and enjoy!</h3>
+                    <p class="method__description">
+                      We ship your package within 48 hours, freshly roasted. Sit
+                      back and enjoy award-winning world-class coffees curated
+                      to provide a distinct tasting experience.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Prepare section -->
+
+      <!-- Choose section -->
+      <section class="choose-section">
+        <div class="container">
+          <div class="choose">
+            <div class="parts">
+              <a href="#" class="parts__btn">
+                <span class="parts__number">01</span><span class="parts__text">Preferences</span>
+              </a>
+              <a href="#" class="parts__btn">
+                <span class="parts__number">02</span><span class="parts__text">Bean Type</span>
+              </a>
+              <a href="#" class="parts__btn">
+                <span class="parts__number">03</span><span class="parts__text">Quantity</span>
+              </a>
+              <a href="#" class="parts__btn">
+                <span class="parts__number">04</span><span class="parts__text">Grind Option</span>
+              </a>
+              <a href="#" class="parts__btn">
+                <span class="parts__number">05</span><span class="parts__text">Deliveries</span>
+              </a>
+            </div>
+            <div class="prescriptions">
+              <div class="prescription">
+                <div class="prescription-title">
+                  <a class="prescription__title">
+                    How do you drink your coffee?
+                  </a>
+                  <img
+                    src="./images/arrow.svg"
+                    alt="arrow svg"
+                    class="prescription__img"
+                    height="10px"
+                  />
+                </div>
+                <div class="prescription__cards cards-prescription">
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="coffee"
+                      id="capsule"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="capsule" class="card-prescription__info">
+                      <span>Capsule</span>
+                      <span
+                        >Compatible with Nespresso systems and similar
+                        brewers</span
+                      >
+                    </label>
+                  </div>
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="coffee"
+                      id="filter"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="filter" class="card-prescription__info">
+                      <span>Filter</span>
+                      <span
+                        >For pour over or drip methods like Aeropress, Chemex,
+                        and V60</span
+                      >
+                    </label>
+                  </div>
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="coffee"
+                      id="espresso"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="espresso" class="card-prescription__info">
+                      <span>Espresso</span>
+                      <span
+                        >Dense and finely ground beans for an intense, flavorful
+                        experience</span
+                      >
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prescription">
+                <div class="prescription-title">
+                  <a class="prescription__title"> What type of coffee? </a>
+                  <img
+                    src="./images/arrow.svg"
+                    alt="arrow svg"
+                    class="prescription__img"
+                  />
+                </div>
+                <div class="prescription__cards cards-prescription">
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="type"
+                      id="single-origin"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="single-origin" class="card-prescription__info">
+                      <span>Single Origin</span>
+                      <span
+                        >Distinct, high quality coffee from a specific
+                        family-owned farm</span
+                      >
+                    </label>
+                  </div>
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="type"
+                      id="decaf"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="decaf" class="card-prescription__info">
+                      <span>Decaf</span>
+                      <span
+                        >Just like regular coffee, except the caffeine has been
+                        removed</span
+                      >
+                    </label>
+                  </div>
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="type"
+                      id="blended"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="blended" class="card-prescription__info">
+                      <span>Blended</span>
+                      <span
+                        >Combination of two or three dark roasted beans of
+                        organic coffees</span
+                      >
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prescription">
+                <div class="prescription-title">
+                  <a class="prescription__title"> How much would you like? </a>
+                  <img
+                    src="./images/arrow.svg"
+                    alt="arrow svg"
+                    class="prescription__img"
+                  />
+                </div>
+                <div class="prescription__cards cards-prescription">
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="quantity"
+                      id="250g"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="250g" class="card-prescription__info">
+                      <span>250g</span>
+                      <span
+                        >Perfect for the solo drinker. Yields about 12 delicious
+                        cups.</span
+                      >
+                    </label>
+                  </div>
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="quantity"
+                      id="500g"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="500g" class="card-prescription__info">
+                      <span>500g</span>
+                      <span
+                        >Perfect option for a couple. Yields about 40 delectable
+                        cups.</span
+                      >
+                    </label>
+                  </div>
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="quantity"
+                      id="1000g"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="1000g" class="card-prescription__info">
+                      <span>1000g</span>
+                      <span
+                        >Perfect for offices and events. Yields about 90
+                        delightful cups.</span
+                      >
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prescription">
+                <div class="prescription-title">
+                  <a class="prescription__title"> Want us to grind them? </a>
+                  <img
+                    src="./images/arrow.svg"
+                    alt="arrow svg"
+                    class="prescription__img"
+                  />
+                </div>
+                <div class="prescription__cards cards-prescription">
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="size"
+                      id="wholebean"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="wholebean" class="card-prescription__info">
+                      <span>Wholebean</span>
+                      <span
+                        >Best choice if you cherish the full sensory
+                        experience</span
+                      >
+                    </label>
+                  </div>
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="size"
+                      id="filtery"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="filtery" class="card-prescription__info">
+                      <span>Filter</span>
+                      <span
+                        >For drip or pour-over coffee methods such as V60 or
+                        Aeropress</span
+                      >
+                    </label>
+                  </div>
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="size"
+                      id="cafetiere"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="cafetiere" class="card-prescription__info">
+                      <span>Cafetiére</span>
+                      <span>
+                        Course ground beans specially suited for french press
+                        coffee</span
+                      >
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prescription">
+                <div class="prescription-title">
+                  <a class="prescription__title">
+                    How often should we deliver?
+                  </a>
+                  <img
+                    src="./images/arrow.svg"
+                    alt="arrow svg"
+                    class="prescription__img"
+                  />
+                </div>
+                <div class="prescription__cards cards-prescription">
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="deliveries"
+                      id="every-week"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="every-week" class="card-prescription__info">
+                      <span>Every week</span>
+                      <span
+                        >$7.20 per shipment. Includes free first-class
+                        shipping.</span
+                      >
+                    </label>
+                  </div>
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="deliveries"
+                      id="every-2-week"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="every-2-week" class="card-prescription__info">
+                      <span>Every 2 weeks</span>
+                      <span
+                        >$9.60 per shipment. Includes free priority
+                        shipping.</span
+                      >
+                    </label>
+                  </div>
+                  <div class="prescription__card card-prescription">
+                    <input
+                      type="radio"
+                      name="deliveries"
+                      id="every-month"
+                      class="visually-hidden card-prescription__variant"
+                    />
+                    <label for="every-month" class="card-prescription__info">
+                      <span>Every month</span>
+                      <span
+                        >$12.00 per shipment. Includes free priority
+                        shipping.</span
+                      >
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prescriptions__total total">
+                <span class="heading"> ORDER SUMMARY </span>
+                <span>
+                  “I drink my coffee as <a href="#">Filter</a>, with a
+                  <a href="#">Decaf</a> type of bean.
+                  <a href="#">250g</a> ground ala <a href="#">Cafetiare</a>,
+                  sent to me <a href="#">Every Week</a>.”
+                </span>
+              </div>
+
+              <div class="prescriptions__btn button-prescription">
+                <button type="submit" class="button-prescription__btn">
+                  Create my plan!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Choose section -->
+    </main>
+    <!-- /Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-block">
+          <div class="footer-block__navigation">
+            <h1 class="footer-logo">
+              <a href="index.html" class="footer-logo__link">
+                <img
+                  src="./images/footer-logo.svg"
+                  alt="coffe roasters logo"
+                  class="footer-logo__img"
+                  height="24px"
+                />
+              </a>
+            </h1>
+            <nav class="footer-nav">
+              <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                  <a href="index.html" class="footer-nav__link"> HOME </a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="about-us.html" class="footer-nav__link"> ABOUT US </a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="subscribe.html" class="footer-nav__link">
+                    CREATE YOUR PLAN
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="social-icons">
+            <a href="#" class="social-icons__link">
+              <img
+                src="./images/facebook.svg"
+                alt="facebook icon"
+                width="24px"
+                class="social-icons__img"
+              />
+            </a>
+            <a href="#" class="social-icons__link">
+              <img
+                src="./images/twitter.svg"
+                alt="facebook icon"
+                width="24px"
+                class="social-icons__img"
+              />
+            </a>
+            <a href="#" class="social-icons__link">
+              <img
+                src="./images/instagram.svg"
+                alt="facebook icon"
+                width="24px"
+                class="social-icons__img"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+  </body>
+</html>

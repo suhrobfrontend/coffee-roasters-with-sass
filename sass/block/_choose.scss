@@ -1,0 +1,79 @@
+.choose {
+  margin-top: 200px;
+
+  .choose-block {
+    width: 1200px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #2C343E;
+    position: relative;
+
+    .choose-block__info {
+      padding: 100px 340px 0;
+
+      .info-block__heading {
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        font-size: 40px;
+        text-align: center;
+        color: #FEFCF7;
+      }
+      
+      .info-block__description {
+        margin-top: 32px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .choose-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    position: absolute;
+    top: 320px;
+    left: 60px;
+
+    .choose-card {
+      padding: 72px 48px 0;
+      width: 340px;
+      height: 370px;
+      background-color: #0E8784;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      transition: .3s ease;
+
+      .info-card__title {
+        margin-top: 56px;
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        font-size: 24px;
+        text-align: center;
+        color: #FEFCF7;
+      }
+      
+      .info-card__description {
+        margin-top: 24px;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+      }
+    }
+    .choose-card:hover {
+      background-color: #0b5f5e;
+    }
+  }
+}
