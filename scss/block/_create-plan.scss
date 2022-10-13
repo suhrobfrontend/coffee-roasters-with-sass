@@ -1,9 +1,8 @@
 .create-plan {
   margin-top: 75px;
-  background-image: url(../images/create-plan.jpg);
-  background-repeat: no-repeat;
+  background: url(../images/create-plan.jpg) no-repeat center;
   background-size: contain;
-  width: 1200px;
+  max-width: 1200px;
   height: 425px;
   padding: 134px 0 0 85px;
 
@@ -12,14 +11,12 @@
     .create-plan__title {
       font-family: 'Fraunces', serif;
       color: #fff;
-      font-style: normal;
       font-weight: 900;
       font-size: 66px;
     }
     
     .create-plan__description {
       font-family: 'Barlow';
-      font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 26px;

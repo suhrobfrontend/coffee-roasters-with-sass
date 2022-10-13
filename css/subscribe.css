@@ -92,23 +92,20 @@ html {
 
 .create-plan {
   margin-top: 75px;
-  background-image: url(../images/create-plan.jpg);
-  background-repeat: no-repeat;
+  background: url(../images/create-plan.jpg) no-repeat center;
   background-size: contain;
-  width: 1200px;
+  max-width: 1200px;
   height: 425px;
   padding: 134px 0 0 85px;
 }
 .create-plan .create-plan__pic .create-plan__title {
   font-family: "Fraunces", serif;
   color: #fff;
-  font-style: normal;
   font-weight: 900;
   font-size: 66px;
 }
 .create-plan .create-plan__pic .create-plan__description {
   font-family: "Barlow";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -262,7 +259,6 @@ html {
 }
 .choose .prescriptions .prescription .prescription__cards .prescription__card .card-prescription__info :first-child {
   font-family: "Fraunces", serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 24px;
   color: #333D4B;
@@ -270,7 +266,6 @@ html {
 .choose .prescriptions .prescription .prescription__cards .prescription__card .card-prescription__info :last-child {
   margin-top: 24px;
   font-family: "Barlow";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -298,7 +293,6 @@ html {
 }
 .choose .prescriptions .total span:first-child {
   font-family: "Barlow";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
@@ -307,7 +301,6 @@ html {
 }
 .choose .prescriptions .total span:last-child {
   font-family: "Fraunces", serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 24px;
   line-height: 40px;
@@ -324,7 +317,6 @@ html {
   font-size: 14px;
   letter-spacing: 1px;
   font-family: "Fraunces", serif;
-  font-style: normal;
   font-weight: 900;
   display: inline-block;
   text-decoration: none;
