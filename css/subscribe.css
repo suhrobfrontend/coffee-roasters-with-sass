@@ -229,12 +229,12 @@ html {
 }
 .choose .prescriptions .prescription {
   width: 730px;
+  padding-top: 45px;
 }
 .choose .prescriptions .prescription .prescription-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 45px;
 }
 .choose .prescriptions .prescription .prescription-title .prescription__title {
   font-family: "Fraunces", serif;

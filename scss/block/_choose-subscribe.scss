@@ -57,12 +57,13 @@
 
     .prescription {
       width: 730px;
+      padding-top: 45px;
 
       .prescription-title {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 45px;
+        // margin-bottom: 45px;
 
         .prescription__title {
           font-family: 'Fraunces', serif;
