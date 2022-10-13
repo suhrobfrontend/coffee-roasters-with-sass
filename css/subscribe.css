@@ -247,7 +247,7 @@ html {
 .choose .prescriptions .prescription .prescription__cards {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 88px;
+  margin-bottom: 38px;
 }
 .choose .prescriptions .prescription .prescription__cards .prescription__card .card-prescription__info {
   display: inline-flex;
