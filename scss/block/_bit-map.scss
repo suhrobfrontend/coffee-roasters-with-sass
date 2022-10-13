@@ -2,11 +2,10 @@
   margin-top: 100px;
 
   .bitmap__image {
-    background-image: url(../images/Bitmap_img.jpg);
-    width: 1200px;
+    background: url(../images/Bitmap_img.jpg) no-repeat center;
+    max-width: 1200px;
     height: 564px;
     background-size: contain;
-    background-repeat: no-repeat;
     padding: 117px 660px 0 86px;
 
     .bitmap__title {
@@ -22,7 +21,7 @@
       color: #fff;
       font-weight: 400;
       font-size: 16px;
-      width: 410px;
+      max-width: 410px;
       margin-top: 30px;
     }
 
