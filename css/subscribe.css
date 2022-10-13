@@ -235,6 +235,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 45px;
 }
 .choose .prescriptions .prescription .prescription-title .prescription__title {
   font-family: "Fraunces", serif;
