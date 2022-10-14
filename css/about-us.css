@@ -164,7 +164,7 @@ html {
 }
 .quality .quality__thumb {
   background: url(../images/quality-img.png) no-repeat center;
-  max-width: 425px;
+  width: 425px;
   height: 464px;
   background-size: contain;
   position: absolute;
