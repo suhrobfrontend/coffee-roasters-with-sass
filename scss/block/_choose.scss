@@ -5,7 +5,7 @@
     width: 1200px;
     height: 550px;
     border-radius: 10px;
-    background-color: #2C343E;
+    background-color: $style-color;
     position: relative;
 
     .choose-block__info {
@@ -16,7 +16,7 @@
         font-weight: 900;
         font-size: 40px;
         text-align: center;
-        color: #FEFCF7;
+        color: #FFF;
       }
       
       .info-block__description {
@@ -26,7 +26,7 @@
         font-size: 16px;
         line-height: 26px;
         text-align: center;
-        color: #FEFCF7;
+        color: #FFF;
         opacity: 0.8;
       }
     }
@@ -44,7 +44,7 @@
       padding: 72px 48px 0;
       width: 340px;
       height: 370px;
-      background-color: #0E8784;
+      background-color: $main-color;
       border-radius: 8px;
       display: flex;
       flex-direction: column;
@@ -58,7 +58,7 @@
         font-weight: 900;
         font-size: 24px;
         text-align: center;
-        color: #FEFCF7;
+        color: #FFF;
       }
       
       .info-card__description {
@@ -68,7 +68,7 @@
         font-size: 16px;
         line-height: 26px;
         text-align: center;
-        color: #FEFCF7;
+        color: #FFF;
       }
     }
     .choose-card:hover {

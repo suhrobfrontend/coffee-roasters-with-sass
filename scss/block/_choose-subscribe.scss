@@ -13,14 +13,14 @@
       padding: 24px 10px 24px 0;
       display: inline-flex;
       gap: 10px;
-      border-bottom: 2px solid #c4c7cc;
+      border-bottom: 2px solid $opacity-color;
 
       .parts__number, .parts__text {
         font-family: 'Fraunces', serif;
         font-weight: 900;
         font-size: 20px;
         line-height: 32px;
-        color: #333D4B;
+        color: $text-color;
         opacity: .2;
         transition: .3s ease;
       }
@@ -67,7 +67,7 @@
           font-family: 'Fraunces', serif;
           font-weight: 900;
           font-size: 25px;
-          color: #83888F;
+          color: $opacity-color;
         }
       }
 
@@ -84,7 +84,7 @@
             width: 228px;
             height: 260px;
             padding: 32px 30px 0 30px;
-            background-color: #F4F1EB;
+            background-color: $card-color;
             border-radius: 8px;
             cursor: pointer;
             transition: .5s ease;
@@ -93,7 +93,7 @@
               font-family: 'Fraunces', serif;
               font-weight: 900;
               font-size: 24px;
-              color: #333D4B;
+              color: $text-color;
             }
             
             :last-child {
@@ -102,19 +102,19 @@
               font-weight: 400;
               font-size: 16px;
               line-height: 26px;
-              color: #333D4B;
+              color: $text-color;
             }
           }
 
           .card-prescription__variant[type="radio"]:checked + .card-prescription__info {
-            background-color: #0E8784;
+            background-color: $main-color;
           }
           .card-prescription__variant[type="radio"]:checked + .card-prescription__info span {
             color: #fff;
           }
 
           .card-prescription__info:hover {
-            background-color: #FDD6BA;
+            background-color: $secondary-color;
             border-radius: 8px;
           }
         }
@@ -124,7 +124,7 @@
     .total {
       width: 730px;
       height: 208px;
-      background-color: #2C343E;
+      background-color: $style-color;
       border-radius: 10px;
       display: inline-flex;
       flex-direction: column;
@@ -136,7 +136,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 26px;
-        color: #FFFFFF;
+        color: #FFF;
         opacity: .5;
       }
 
@@ -145,18 +145,18 @@
         font-weight: 900;
         font-size: 24px;
         line-height: 40px;
-        color: #FFFFFF;
+        color: #FFF;
 
         a {
           text-decoration: none;
-          color: #0E8784;
+          color: $main-color;
         }
       }
     }
 
     .button-prescription__btn {
       padding: 15px 35px;
-      background-color: #0E8784;
+      background-color: $main-color;
       border-radius: 6px;
       font-size: 14px;
       letter-spacing: 1px;
@@ -171,15 +171,15 @@
     }
     
     .button-prescription__btn:hover {
-      background-color: #0b5f5e;
+      background-color: $main-color;
     }
     
     .button-prescription__btn:active {
-      background-color: #66D2CF;
+      background-color: $btn-active-color;
     }
     
     .button-prescription__btn:focus {
-      background-color: #66D2CF;
+      background-color: $btn-active-color;
     }
   }
 }

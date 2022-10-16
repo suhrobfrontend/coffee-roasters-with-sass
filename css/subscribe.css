@@ -42,7 +42,7 @@ html {
 }
 
 .main-btn:hover {
-  background-color: #0b5f5e;
+  background-color: #0E8784;
 }
 
 .main-btn:focus {
@@ -100,7 +100,7 @@ html {
 }
 .create-plan .create-plan__pic .create-plan__title {
   font-family: "Fraunces", serif;
-  color: #fff;
+  color: #FFF;
   font-weight: 900;
   font-size: 66px;
 }
@@ -109,7 +109,7 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #FEFCF7;
+  color: #FFF;
   margin-top: 30px;
   padding-right: 680px;
 }
@@ -167,7 +167,7 @@ html {
   padding-right: 90px;
   font-size: 26px;
   line-height: 36px;
-  color: #FEFCF7;
+  color: #FFF;
   margin-top: 38px;
 }
 .prepare-block .prepare__info .prepare-methods .method .method__description {
@@ -175,7 +175,7 @@ html {
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
-  color: #FEFCF7;
+  color: #FFF;
   margin-top: 38px;
 }
 
@@ -194,7 +194,7 @@ html {
   padding: 24px 10px 24px 0;
   display: inline-flex;
   gap: 10px;
-  border-bottom: 2px solid #c4c7cc;
+  border-bottom: 2px solid #83888F;
 }
 .choose .parts .parts__btn .parts__number, .choose .parts .parts__btn .parts__text {
   font-family: "Fraunces", serif;
@@ -294,7 +294,7 @@ html {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
-  color: #FFFFFF;
+  color: #FFF;
   opacity: 0.5;
 }
 .choose .prescriptions .total span:last-child {
@@ -302,7 +302,7 @@ html {
   font-weight: 900;
   font-size: 24px;
   line-height: 40px;
-  color: #FFFFFF;
+  color: #FFF;
 }
 .choose .prescriptions .total span:last-child a {
   text-decoration: none;
@@ -324,7 +324,7 @@ html {
   border: none;
 }
 .choose .prescriptions .button-prescription__btn:hover {
-  background-color: #0b5f5e;
+  background-color: #0E8784;
 }
 .choose .prescriptions .button-prescription__btn:active {
   background-color: #66D2CF;
@@ -364,7 +364,7 @@ html {
   transition: 0.5s ease;
 }
 .footer-block .footer-block__navigation .footer-nav__list .footer-nav__link:hover {
-  color: #FEFCF7;
+  color: #FFF;
 }
 .footer-block .social-icons__link {
   display: inline-flex;

@@ -1,5 +1,5 @@
 .footer-block {
-  background-color: #2C343E;
+  background-color: $style-color;
   width: 100%;
   padding: 0 80px;
   height: 120px;
@@ -21,7 +21,7 @@
 
       .footer-nav__link {
         text-decoration: none;
-        color: #83888F;
+        color: $opacity-color;
         font-family: 'Barlow';
         font-weight: 700;
         font-size: 14px;
@@ -30,7 +30,7 @@
       }
       
       .footer-nav__link:hover {
-        color: #FEFCF7;
+        color: #FFF;
       }
     }
   }
