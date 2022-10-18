@@ -232,12 +232,19 @@ html {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 45px;
+  transition: 0.5s;
 }
 .choose .prescriptions .prescription .prescription-title .prescription__title {
   font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 25px;
   color: #83888F;
+}
+.choose .prescriptions .prescription .prescription-title .prescription__img {
+  background: url(../images/arrow.svg) no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
 }
 .choose .prescriptions .prescription .prescription__cards {
   display: flex;

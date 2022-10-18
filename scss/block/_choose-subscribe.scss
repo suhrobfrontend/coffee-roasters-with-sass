@@ -63,11 +63,21 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 45px;
+        transition: .5s;
+
         .prescription__title {
           font-family: 'Fraunces', serif;
           font-weight: 900;
           font-size: 25px;
           color: $opacity-color;
+        }
+
+
+        .prescription__img {
+          background: url(../images/arrow.svg) no-repeat;
+          background-size: contain;
+          width: 20px;
+          height: 20px;
         }
       }
 
