@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -38,7 +42,7 @@
 }
 
 .main-btn:hover {
-  background-color: #0b5f5e;
+  background-color: #0E8784;
 }
 
 .main-btn:focus {
@@ -90,11 +94,10 @@
   margin-top: 100px;
 }
 .bitmap .bitmap__image {
-  background-image: url(../images/Bitmap_img.jpg);
-  width: 1200px;
+  background: url(../images/Bitmap_img.jpg) no-repeat center;
+  max-width: 1200px;
   height: 564px;
   background-size: contain;
-  background-repeat: no-repeat;
   padding: 117px 660px 0 86px;
 }
 .bitmap .bitmap__image .bitmap__title {
@@ -109,7 +112,7 @@
   color: #fff;
   font-weight: 400;
   font-size: 16px;
-  width: 410px;
+  max-width: 410px;
   margin-top: 30px;
 }
 
@@ -136,7 +139,6 @@
 }
 .collection .collection-types .collection-types__pocket .type-info__description {
   font-family: "Barlow";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
@@ -149,7 +151,7 @@
   font-size: 170px;
   opacity: 0.5;
   text-align: center;
-  background: -webkit-linear-gradient(#333 0%, #eee 60%, #eee 100%);
+  background: -webkit-linear-gradient(#333 0%, #eee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
@@ -158,38 +160,37 @@
   left: 100px;
 }
 
-.choose {
+.choosing {
   margin-top: 200px;
 }
-.choose .choose-block {
+.choosing .choose-block {
   width: 1200px;
   height: 550px;
   border-radius: 10px;
   background-color: #2C343E;
   position: relative;
 }
-.choose .choose-block .choose-block__info {
+.choosing .choose-block .choose-block__info {
   padding: 100px 340px 0;
 }
-.choose .choose-block .choose-block__info .info-block__heading {
+.choosing .choose-block .choose-block__info .info-block__heading {
   font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 40px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fff;
 }
-.choose .choose-block .choose-block__info .info-block__description {
+.choosing .choose-block .choose-block__info .info-block__description {
   margin-top: 32px;
   font-family: "Barlow";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fff;
   opacity: 0.8;
 }
-.choose .choose-cards {
+.choosing .choose-cards {
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -197,7 +198,7 @@
   top: 320px;
   left: 60px;
 }
-.choose .choose-cards .choose-card {
+.choosing .choose-cards .choose-card {
   padding: 72px 48px 0;
   width: 340px;
   height: 370px;
@@ -209,24 +210,24 @@
   cursor: pointer;
   transition: 0.3s ease;
 }
-.choose .choose-cards .choose-card .info-card__title {
+.choosing .choose-cards .choose-card .info-card__title {
   margin-top: 56px;
   font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 24px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fff;
 }
-.choose .choose-cards .choose-card .info-card__description {
+.choosing .choose-cards .choose-card .info-card__description {
   margin-top: 24px;
   font-family: "Barlow";
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fff;
 }
-.choose .choose-cards .choose-card:hover {
+.choosing .choose-cards .choose-card:hover {
   background-color: #0b5f5e;
 }
 
@@ -323,10 +324,379 @@
   transition: 0.5s ease;
 }
 .footer-block .footer-block__navigation .footer-nav__list .footer-nav__link:hover {
-  color: #FEFCF7;
+  color: #FFF;
 }
 .footer-block .social-icons__link {
   display: inline-flex;
   align-items: center;
   margin: 10px;
+}
+
+.about {
+  background: url(../images/aboutus_img.jpg) no-repeat center;
+  background-size: contain;
+  max-width: 1200px;
+  height: 560px;
+  margin-top: 70px;
+  padding: 117px 690px 0 85px;
+}
+.about__title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFF;
+}
+.about__description {
+  margin-top: 15px;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.commitment {
+  display: flex;
+  align-items: center;
+  gap: 105px;
+  padding: 0 80px;
+}
+.commitment .info-commitment__title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+.commitment .info-commitment__description {
+  font-family: "Barlow";
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+}
+
+.quality {
+  width: 1200px;
+  height: 455px;
+  background-color: #2C343E;
+  border-radius: 10px;
+  margin-top: 240px;
+  padding: 88px 600px 0 80px;
+  display: flex;
+  position: relative;
+}
+.quality .quality-text__title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #FEFCF7;
+}
+.quality .quality-text__description {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 25px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+.quality .quality__thumb {
+  background: url(../images/quality-img.png) no-repeat center;
+  width: 425px;
+  height: 464px;
+  background-size: contain;
+  position: absolute;
+  top: -85px;
+  left: 705px;
+}
+
+.headquarters {
+  margin-top: 160px;
+  padding-left: 80px;
+}
+.headquarters__title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 72px;
+}
+.headquarters .headquarter-countries {
+  display: flex;
+  gap: 95px;
+  align-items: flex-end;
+}
+.headquarters .headquarter-countries .info-country__heading {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-top: 45px;
+}
+.headquarters .headquarter-countries .info-country__address {
+  list-style: none;
+}
+.headquarters .headquarter-countries .info-country__address li {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #333D4B;
+  margin-top: 12px;
+}
+
+.create-plan {
+  margin-top: 75px;
+  background: url(../images/create-plan.jpg) no-repeat center;
+  background-size: contain;
+  max-width: 1200px;
+  height: 425px;
+  padding: 134px 0 0 85px;
+}
+.create-plan .create-plan__pic .create-plan__title {
+  font-family: "Fraunces", serif;
+  color: #FFF;
+  font-weight: 900;
+  font-size: 66px;
+}
+.create-plan .create-plan__pic .create-plan__description {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFF;
+  margin-top: 30px;
+  padding-right: 680px;
+}
+
+.prepare-block {
+  margin-top: 170px;
+  width: 1200px;
+  height: 640px;
+  background: #2C343E;
+  border-radius: 10px;
+  padding: 90px 85px 0;
+}
+.prepare-block .decoration {
+  display: flex;
+  gap: 345px;
+  position: relative;
+}
+.prepare-block .decoration .decoration__ring {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+  z-index: 2;
+}
+.prepare-block .decoration .decoration__line {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1;
+  display: inline-block;
+  width: 750px;
+  height: 2px;
+  background-color: #FDD6BA;
+}
+.prepare-block .prepare__info .prepare-methods {
+  display: flex;
+  justify-content: space-between;
+}
+.prepare-block .prepare__info .prepare-methods .method {
+  width: 265px;
+  margin-top: 65px;
+  cursor: pointer;
+}
+.prepare-block .prepare__info .prepare-methods .method .method__number {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+.prepare-block .prepare__info .prepare-methods .method .method__title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  padding-right: 90px;
+  font-size: 26px;
+  line-height: 36px;
+  color: #FFF;
+  margin-top: 38px;
+}
+.prepare-block .prepare__info .prepare-methods .method .method__description {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #FFF;
+  margin-top: 38px;
+}
+
+.choose {
+  display: flex;
+  gap: 110px;
+  padding: 0 85px;
+  margin-top: 160px;
+}
+.choose .parts {
+  display: inline-flex;
+  flex-direction: column;
+}
+.choose .parts .parts__btn {
+  text-decoration: none;
+  padding: 24px 10px 24px 0;
+  display: inline-flex;
+  gap: 10px;
+  border-bottom: 2px solid #83888F;
+}
+.choose .parts .parts__btn .parts__number, .choose .parts .parts__btn .parts__text {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333D4B;
+  opacity: 0.2;
+  transition: 0.3s ease;
+}
+.choose .parts .parts__btn .parts__text {
+  opacity: 0.3;
+}
+.choose .parts .parts__btn:nth-child(5) {
+  border: none;
+}
+.choose .parts .parts__btn:hover .parts__number {
+  opacity: 0.5;
+}
+.choose .parts .parts__btn:hover .parts__text {
+  opacity: 0.7;
+}
+.choose .parts .parts__btn:focus .parts__number {
+  opacity: 0.7;
+}
+.choose .parts .parts__btn:focus .parts__text {
+  opacity: 1;
+}
+.choose .prescriptions .prescription {
+  width: 730px;
+  padding-top: 70px;
+}
+.choose .prescriptions .prescription .prescription-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  transition: 0.5s;
+}
+.choose .prescriptions .prescription .prescription-title .prescription__title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 25px;
+  color: #83888F;
+}
+.choose .prescriptions .prescription .prescription-title .prescription__img {
+  background: url(../images/arrow.svg) no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.choose .prescriptions .prescription .prescription__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+.choose .prescriptions .prescription .prescription__cards .prescription__card .card-prescription__info {
+  display: inline-flex;
+  flex-direction: column;
+  width: 228px;
+  height: 260px;
+  padding: 32px 30px 0 30px;
+  background-color: #F4F1EB;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.choose .prescriptions .prescription .prescription__cards .prescription__card .card-prescription__info :first-child {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: #333D4B;
+}
+.choose .prescriptions .prescription .prescription__cards .prescription__card .card-prescription__info :last-child {
+  margin-top: 24px;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+.choose .prescriptions .prescription .prescription__cards .prescription__card .card-prescription__variant[type=radio]:checked + .card-prescription__info {
+  background-color: #0E8784;
+}
+.choose .prescriptions .prescription .prescription__cards .prescription__card .card-prescription__variant[type=radio]:checked + .card-prescription__info span {
+  color: #fff;
+}
+.choose .prescriptions .prescription .prescription__cards .prescription__card .card-prescription__info:hover {
+  background-color: #FDD6BA;
+  border-radius: 8px;
+}
+.choose .prescriptions .total {
+  width: 730px;
+  height: 208px;
+  background-color: #2C343E;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 35px 75px 20px;
+  gap: 8px;
+}
+.choose .prescriptions .total span:first-child {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #FFF;
+  opacity: 0.5;
+}
+.choose .prescriptions .total span:last-child {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFF;
+}
+.choose .prescriptions .total span:last-child a {
+  text-decoration: none;
+  color: #0E8784;
+}
+.choose .prescriptions .button-prescription__btn {
+  padding: 15px 35px;
+  background-color: #0E8784;
+  border-radius: 6px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin: 40px 0 0 533px;
+  cursor: pointer;
+  border: none;
+}
+.choose .prescriptions .button-prescription__btn:hover {
+  background-color: #0E8784;
+}
+.choose .prescriptions .button-prescription__btn:active {
+  background-color: #66D2CF;
+}
+.choose .prescriptions .button-prescription__btn:focus {
+  background-color: #66D2CF;
 }/*# sourceMappingURL=main.css.map */
