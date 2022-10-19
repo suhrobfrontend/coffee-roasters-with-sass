@@ -19,7 +19,7 @@
       border-radius: 50%;
       z-index: 2;
     }
-    
+
     .decoration__line {
       position: absolute;
       top: 15px;
@@ -33,7 +33,6 @@
   }
 
   .prepare__info {
-
     .prepare-methods {
       display: flex;
       justify-content: space-between;
@@ -44,29 +43,29 @@
         cursor: pointer;
 
         .method__number {
-          font-family: 'Fraunces', serif;
+          font-family: "Fraunces", serif;
           font-weight: 900;
           font-size: 72px;
           line-height: 72px;
           color: $secondary-color;
         }
-        
+
         .method__title {
-          font-family: 'Fraunces', serif;
+          font-family: "Fraunces", serif;
           font-weight: 900;
           padding-right: 90px;
           font-size: 26px;
           line-height: 36px;
-          color: #FFF;
+          color: #fff;
           margin-top: 38px;
         }
-        
+
         .method__description {
-          font-family: 'Barlow', sans-serif;
+          font-family: "Barlow", sans-serif;
           font-weight: 400;
           font-size: 15px;
           line-height: 26px;
-          color: #FFF;
+          color: #fff;
           margin-top: 38px;
         }
       }

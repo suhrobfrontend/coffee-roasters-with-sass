@@ -1,14 +1,13 @@
-.prepare {
+.preparing {
   margin-top: 430px;
   padding: 0 85px;
 
   .alone {
-
     .alone__title {
-      font-family: 'Fraunces', serif;
+      font-family: "Fraunces", serif;
       font-weight: 900;
       font-size: 24px;
-      color: #83888F;
+      color: #83888f;
     }
   }
 
@@ -21,15 +20,15 @@
       display: inline-block;
       width: 30px;
       height: 30px;
-      border: 2px solid #0E8784;
+      border: 2px solid #0e8784;
       border-radius: 50%;
     }
-    
+
     .decoration__line {
       display: inline-block;
       width: 350px;
       height: 2px;
-      background-color: #FDD6BA;
+      background-color: #fdd6ba;
     }
   }
 
@@ -43,29 +42,29 @@
       cursor: pointer;
 
       .method__number {
-        font-family: 'Fraunces', serif;
+        font-family: "Fraunces", serif;
         font-weight: 900;
         font-size: 72px;
         line-height: 72px;
-        color: #FDD6BA;
+        color: #fdd6ba;
       }
 
       .method__title {
-        font-family: 'Fraunces', serif;
+        font-family: "Fraunces", serif;
         font-weight: 900;
         padding-right: 70px;
         font-size: 32px;
         line-height: 36px;
-        color: #333D4B;
+        color: #333d4b;
         margin-top: 38px;
       }
-      
+
       .method__description {
-        font-family: 'Barlow', sans-serif;
+        font-family: "Barlow", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
-        color: #333D4B;
+        color: #333d4b;
         margin-top: 38px;
       }
     }

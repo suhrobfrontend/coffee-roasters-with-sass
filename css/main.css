@@ -231,65 +231,65 @@ html {
   background-color: #0b5f5e;
 }
 
-.prepare {
+.preparing {
   margin-top: 430px;
   padding: 0 85px;
 }
-.prepare .alone .alone__title {
+.preparing .alone .alone__title {
   font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 24px;
-  color: #83888F;
+  color: #83888f;
 }
-.prepare .decoration {
+.preparing .decoration {
   display: inline-flex;
   align-items: center;
   margin-top: 95px;
 }
-.prepare .decoration .decoration__ring {
+.preparing .decoration .decoration__ring {
   display: inline-block;
   width: 30px;
   height: 30px;
-  border: 2px solid #0E8784;
+  border: 2px solid #0e8784;
   border-radius: 50%;
 }
-.prepare .decoration .decoration__line {
+.preparing .decoration .decoration__line {
   display: inline-block;
   width: 350px;
   height: 2px;
-  background-color: #FDD6BA;
+  background-color: #fdd6ba;
 }
-.prepare .prepare-methods {
+.preparing .prepare-methods {
   display: flex;
   justify-content: space-between;
 }
-.prepare .prepare-methods .method {
+.preparing .prepare-methods .method {
   width: 285px;
   margin-top: 65px;
   cursor: pointer;
 }
-.prepare .prepare-methods .method .method__number {
+.preparing .prepare-methods .method .method__number {
   font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 72px;
-  color: #FDD6BA;
+  color: #fdd6ba;
 }
-.prepare .prepare-methods .method .method__title {
+.preparing .prepare-methods .method .method__title {
   font-family: "Fraunces", serif;
   font-weight: 900;
   padding-right: 70px;
   font-size: 32px;
   line-height: 36px;
-  color: #333D4B;
+  color: #333d4b;
   margin-top: 38px;
 }
-.prepare .prepare-methods .method .method__description {
+.preparing .prepare-methods .method .method__description {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #333D4B;
+  color: #333d4b;
   margin-top: 38px;
 }
 
@@ -528,7 +528,7 @@ html {
   padding-right: 90px;
   font-size: 26px;
   line-height: 36px;
-  color: #FFF;
+  color: #fff;
   margin-top: 38px;
 }
 .prepare-block .prepare__info .prepare-methods .method .method__description {
@@ -536,7 +536,7 @@ html {
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
-  color: #FFF;
+  color: #fff;
   margin-top: 38px;
 }
 
@@ -557,7 +557,8 @@ html {
   gap: 10px;
   border-bottom: 2px solid #83888F;
 }
-.choose .parts .parts__btn .parts__number, .choose .parts .parts__btn .parts__text {
+.choose .parts .parts__btn .parts__number,
+.choose .parts .parts__btn .parts__text {
   font-family: "Fraunces", serif;
   font-weight: 900;
   font-size: 20px;
@@ -662,7 +663,7 @@ html {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
-  color: #FFF;
+  color: #fff;
   opacity: 0.5;
 }
 .choose .prescriptions .total span:last-child {
@@ -670,7 +671,7 @@ html {
   font-weight: 900;
   font-size: 24px;
   line-height: 40px;
-  color: #FFF;
+  color: #fff;
 }
 .choose .prescriptions .total span:last-child a {
   text-decoration: none;

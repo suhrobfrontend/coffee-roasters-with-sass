@@ -15,18 +15,19 @@
       gap: 10px;
       border-bottom: 2px solid $opacity-color;
 
-      .parts__number, .parts__text {
-        font-family: 'Fraunces', serif;
+      .parts__number,
+      .parts__text {
+        font-family: "Fraunces", serif;
         font-weight: 900;
         font-size: 20px;
         line-height: 32px;
         color: $text-color;
-        opacity: .2;
-        transition: .3s ease;
+        opacity: 0.2;
+        transition: 0.3s ease;
       }
 
       .parts__text {
-        opacity: .3;
+        opacity: 0.3;
       }
     }
 
@@ -35,25 +36,23 @@
     }
 
     .parts__btn:hover .parts__number {
-      opacity: .5;
+      opacity: 0.5;
     }
 
     .parts__btn:hover .parts__text {
-      opacity: .7;
+      opacity: 0.7;
     }
-    
+
     .parts__btn:focus .parts__number {
-      opacity: .7;
+      opacity: 0.7;
     }
-    
+
     .parts__btn:focus .parts__text {
       opacity: 1;
     }
-    
   }
 
   .prescriptions {
-
     .prescription {
       width: 730px;
       padding-top: 70px;
@@ -63,15 +62,14 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 45px;
-        transition: .5s;
+        transition: 0.5s;
 
         .prescription__title {
-          font-family: 'Fraunces', serif;
+          font-family: "Fraunces", serif;
           font-weight: 900;
           font-size: 25px;
           color: $opacity-color;
         }
-
 
         .prescription__img {
           background: url(../images/arrow.svg) no-repeat;
@@ -87,7 +85,6 @@
         margin-bottom: 38px;
 
         .prescription__card {
-
           .card-prescription__info {
             display: inline-flex;
             flex-direction: column;
@@ -97,18 +94,18 @@
             background-color: $card-color;
             border-radius: 8px;
             cursor: pointer;
-            transition: .5s ease;
+            transition: 0.5s ease;
 
             :first-child {
-              font-family: 'Fraunces', serif;
+              font-family: "Fraunces", serif;
               font-weight: 900;
               font-size: 24px;
               color: $text-color;
             }
-            
+
             :last-child {
               margin-top: 24px;
-              font-family: 'Barlow';
+              font-family: "Barlow";
               font-weight: 400;
               font-size: 16px;
               line-height: 26px;
@@ -116,10 +113,13 @@
             }
           }
 
-          .card-prescription__variant[type="radio"]:checked + .card-prescription__info {
+          .card-prescription__variant[type="radio"]:checked
+            + .card-prescription__info {
             background-color: $main-color;
           }
-          .card-prescription__variant[type="radio"]:checked + .card-prescription__info span {
+          .card-prescription__variant[type="radio"]:checked
+            + .card-prescription__info
+            span {
             color: #fff;
           }
 
@@ -142,20 +142,20 @@
       gap: 8px;
 
       span:first-child {
-        font-family: 'Barlow';
+        font-family: "Barlow";
         font-weight: 400;
         font-size: 14px;
         line-height: 26px;
-        color: #FFF;
-        opacity: .5;
+        color: #fff;
+        opacity: 0.5;
       }
 
       span:last-child {
-        font-family: 'Fraunces', serif;
+        font-family: "Fraunces", serif;
         font-weight: 900;
         font-size: 24px;
         line-height: 40px;
-        color: #FFF;
+        color: #fff;
 
         a {
           text-decoration: none;
@@ -170,7 +170,7 @@
       border-radius: 6px;
       font-size: 14px;
       letter-spacing: 1px;
-      font-family: 'Fraunces', serif;
+      font-family: "Fraunces", serif;
       font-weight: 900;
       display: inline-block;
       text-decoration: none;
@@ -179,15 +179,15 @@
       cursor: pointer;
       border: none;
     }
-    
+
     .button-prescription__btn:hover {
       background-color: $main-color;
     }
-    
+
     .button-prescription__btn:active {
       background-color: $btn-active-color;
     }
-    
+
     .button-prescription__btn:focus {
       background-color: $btn-active-color;
     }
