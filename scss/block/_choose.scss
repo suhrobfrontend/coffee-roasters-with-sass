@@ -41,9 +41,9 @@
     left: 60px;
 
     .choose-card {
-      padding: 72px 48px 0;
-      width: 340px;
-      height: 370px;
+      padding: 72px 48px 40px;
+      max-width: 340px;
+      max-height: 370px;
       background-color: $main-color;
       border-radius: 8px;
       display: flex;
@@ -73,6 +73,36 @@
     }
     .choose-card:hover {
       background-color: #0b5f5e;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .choosing {
+    margin-top: 144px;
+
+    .choose-block {
+      max-width: 100%;
+      max-height: 550px;
+
+      .choose-block__info {
+        padding: 40px 75px 0;
+      }
+    }
+    
+    .choose-cards {
+      flex-direction: column;
+      align-items: center;
+      left: 20%;
+      transform: translate(-12%);
+
+      .choose-card {
+        flex-direction: row;
+        gap: 55px;
+        max-width: 100%;
+        max-height: 180px;
+        padding: 0px 48px 30px;
+      }
     }
   }
 }

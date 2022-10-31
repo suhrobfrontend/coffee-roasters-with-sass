@@ -52,3 +52,9 @@ html {
 .main-btn:active {
   background-color: #66D2CF;
 }
+
+@media screen and (max-width: $tablet) {
+  .container {
+    max-width: 92%;
+  }
+}

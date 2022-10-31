@@ -13,15 +13,15 @@
       cursor: pointer;
 
       .type-info__heading {
-        font-family: 'Fraunces', serif;
+        font-family: "Fraunces", serif;
         font-weight: 900;
         font-size: 24px;
         text-align: center;
         color: $text-color;
       }
-      
+
       .type-info__description {
-        font-family: 'Barlow';
+        font-family: "Barlow";
         font-weight: 400;
         font-size: 16px;
         text-align: center;
@@ -32,18 +32,44 @@
     }
   }
 
-
   .collection-heading__text {
     position: absolute;
-      font-size: 170px;
-      opacity: .5;
+    font-size: 170px;
+    opacity: 0.5;
+    text-align: center;
+    background: -webkit-linear-gradient(#333 0%, #eee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+    top: 130px;
+    left: 100px;
+  }
+}
+
+@media (max-width: $tablet) {
+  .collection {
+    padding: 200px 0 0;
+
+    .collection-heading__text {
+      font-size: 95px;
       text-align: center;
-      background: -webkit-linear-gradient(#333 0%, #eee 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-weight: 900;
-      font-family: 'Fraunces', serif;
-      top: 130px;
-      left: 100px;
+      margin: 0 auto;
+      top: 144px;
+      left: 63px;
+    }
+
+    .collection-types {
+      flex-direction: column;
+      align-items: center;
+
+      .collection-types__pocket {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 550px;
+        gap: 10px;
+      }
+    }
   }
 }
