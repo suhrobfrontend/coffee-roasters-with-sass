@@ -3,16 +3,17 @@
 
   .bitmap__image {
     background: url(../images/Bitmap_img.jpg) no-repeat center;
-    max-width: $desktop;
+    max-width: 1200px;
     height: 564px;
-    background-size: contain;
-    padding: 117px 660px 0 86px;
+    background-size: cover;
+    padding: 80px 200px 0 86px;
+    border-radius: 10px;
 
     .bitmap__title {
       font-family: "Fraunces", serif;
       color: #fff;
       font-weight: 900;
-      font-size: 72px;
+      font-size: 64px;
       line-height: 72px;
     }
 
@@ -20,16 +21,46 @@
       font-family: "Barlow";
       color: #fff;
       font-weight: 400;
-      font-size: 16px;
-      max-width: 410px;
+      font-size: 18px;
+      max-width: 450px;
       margin-top: 30px;
     }
   }
 }
 
-@media screen and (max-width: $tablet) {
+@media only screen and (max-width: $extra-tablet) {
   .bitmap {
-    margin-top: 55px;
+    margin-top: 43px;
+  }
+}
+
+@media only screen and (max-width: $tablet) {
+  .bitmap {
+    .bitmap__image {
+      background-size: cover;
+      border-radius: 10px;
+      max-width: 100%;
+      max-height: 500px;
+      padding: 90px 70px 0 30px;
+
+      .bitmap__title {
+        font-size: 65px;
+        line-height: 70px;
+      }
+
+      .bitmap__description {
+        font-size: 16px;
+      }
+
+      .main-btn {
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .bitmap {
     .bitmap__image {
       background: url(../../images/Bitmap_img.jpg) no-repeat;
       background-size: cover;
@@ -37,12 +68,31 @@
       border-radius: 10px;
       max-width: 100%;
       max-height: 500px;
-      padding:70px 300px 0 40px;
+      padding: 80px 30px 0;
 
       .bitmap__title {
-        font-size: 40px;
-        line-height: 48px;
+        font-size: 48px;
+        line-height: 50px;
+        text-align: center;
       }
+
+      .bitmap__description {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+        width: auto;
+        max-width: none;
+      }
+
+      .bitmap-btn {
+        display: flex;
+        justify-content: center;
+        
+        .main-btn {
+          margin-top: 15px;
+        }
+      }
+
 
       .bitmap__description {
         font-size: 14px;

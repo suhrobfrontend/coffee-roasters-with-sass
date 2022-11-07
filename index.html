@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="./css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Fraunces:opsz,wght@9..144,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!-- Header -->
@@ -31,6 +35,11 @@
             </h1>
           </div>
           <nav class="nav">
+            <input type="checkbox" id="hamburger" />
+            <label for="hamburger" class="hamburger">
+              <i class="bx bx-menu" id="menu"></i>
+              <i class="bx bx-x" id="close"></i>
+            </label>
             <ul class="nav__list">
               <li class="nav__item">
                 <a href="index.html" class="nav__link_active"> HOME </a>
@@ -57,13 +66,16 @@
         <div class="container">
           <div class="bitmap">
             <div class="bitmap__image">
-              <h2 class="bitmap__title">Great coffee made simple.</h2>
+              <h2 class="bitmap__title">Great coffee <br>
+                made simple.</h2>
               <p class="bitmap__description">
                 Start your mornings with the world’s best coffees. Try our
                 expertly curated artisan coffees from our best roasters
                 delivered directly to your door, at your schedule.
               </p>
-              <a href="subscribe.html" class="main-btn">Create your plan</a>
+              <div class="bitmap-btn">
+                <a href="subscribe.html" class="main-btn">Create your plan</a>
+              </div>
             </div>
           </div>
         </div>
@@ -83,7 +95,6 @@
                   src="./images/expresso.png"
                   alt="coffee espresso"
                   class="pocket-type__img"
-                  width="255px"
                 />
                 <div class="pocket-type__info type-info">
                   <h3 class="type-info__heading">Gran Espresso</h3>
@@ -98,7 +109,6 @@
                   src="./images/planalto.png"
                   alt="coffee planalto"
                   class="pocket-type__img"
-                  width="255px"
                 />
                 <div class="pocket-type__info type-info">
                   <h3 class="type-info__heading">Planalto</h3>
@@ -113,7 +123,6 @@
                   src="./images/piccollo.png"
                   alt="coffee piccollo"
                   class="pocket-type__img"
-                  width="255px"
                 />
                 <div class="coffee-type__info type-info">
                   <h3 class="type-info__heading">Piccollo</h3>
@@ -128,7 +137,6 @@
                   src="./images/danche.png"
                   alt="coffee danche"
                   class="pocket-type__img"
-                  width="255px"
                 />
                 <div class="pocket-type__info type-info">
                   <h3 class="type-info__heading">Danche</h3>

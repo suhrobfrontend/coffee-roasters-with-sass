@@ -1,16 +1,24 @@
 .collection {
+  margin-top: 140px;
   position: relative;
-  padding: 248px 85px 0;
-
+  
   .collection-types {
     display: flex;
-    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
     z-index: 2;
-    justify-content: space-between;
+    position: relative;
+    transform: translateY(-60px);
 
+    
     .collection-types__pocket {
       width: 253px;
       cursor: pointer;
+      
+      .pocket-type__img {
+        max-width: 255px;
+      }
 
       .type-info__heading {
         font-family: "Fraunces", serif;
@@ -31,37 +39,39 @@
       }
     }
   }
-
-  .collection-heading__text {
-    position: absolute;
-    font-size: 170px;
-    opacity: 0.5;
-    text-align: center;
-    background: -webkit-linear-gradient(#333 0%, #eee 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 900;
-    font-family: "Fraunces", serif;
-    top: 130px;
-    left: 100px;
+  .collection-heading {
+    .collection-heading__text {
+      font-size: 100px;
+      position: relative;
+      z-index: 1;
+      opacity: 0.5;
+      text-align: center;
+      background: -webkit-linear-gradient(#333 0%, #eee 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 900;
+      font-family: "Fraunces", serif;
+    }
   }
+
 }
 
-@media (max-width: $tablet) {
+@media only screen and (max-width: $tablet) {
   .collection {
     padding: 200px 0 0;
 
-    .collection-heading__text {
-      font-size: 95px;
-      text-align: center;
-      margin: 0 auto;
-      top: 144px;
-      left: 63px;
+    .collection-heading {
+
+      .collection-heading__text {
+        font-size: 80px;
+        text-align: center;
+      }
     }
 
     .collection-types {
       flex-direction: column;
       align-items: center;
+      transform: translateY(-50px);
 
       .collection-types__pocket {
         display: flex;
@@ -69,6 +79,24 @@
         align-items: center;
         width: 550px;
         gap: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .collection {
+    .collection-types {
+      transform: translateY(0);
+      .collection-types__pocket {
+        max-width: 253px;
+        flex-direction: column;
+      }
+    }
+
+    .collection-heading {
+      .collection-heading__text {
+        font-size: 45px;
       }
     }
   }

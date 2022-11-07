@@ -2,14 +2,14 @@
   margin-top: 200px;
 
   .choose-block {
-    width: 1200px;
+    width: 100%;
     height: 550px;
     border-radius: 10px;
     background-color: $style-color;
     position: relative;
 
     .choose-block__info {
-      padding: 100px 340px 0;
+      padding: 100px 0 0;
 
       .info-block__heading {
         font-family: "Fraunces", serif;
@@ -17,13 +17,15 @@
         font-size: 40px;
         text-align: center;
         color: #fff;
+        margin-bottom: 32px;
       }
 
       .info-block__description {
-        margin-top: 32px;
         font-family: "Barlow";
         font-weight: 400;
         font-size: 16px;
+        max-width: 550px;
+        margin: 0 auto;
         line-height: 26px;
         text-align: center;
         color: #fff;
@@ -38,12 +40,13 @@
     justify-content: center;
     position: absolute;
     top: 320px;
-    left: 60px;
+    left: 50%;
+    transform: translate(-50%);
 
     .choose-card {
-      padding: 72px 48px 40px;
+      padding: 72px 30px 40px;
       max-width: 340px;
-      max-height: 370px;
+      height: 370px;
       background-color: $main-color;
       border-radius: 8px;
       display: flex;
@@ -54,6 +57,7 @@
 
       .info-card__title {
         margin-top: 56px;
+        width: 240px;
         font-family: "Fraunces", serif;
         font-weight: 900;
         font-size: 24px;
@@ -66,7 +70,7 @@
         font-family: "Barlow";
         font-weight: 400;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 20px;
         text-align: center;
         color: #fff;
       }
@@ -77,31 +81,100 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: $extra-tablet) {
+  .choosing {
+    .choose-cards  {
+      .choose-card {
+        max-width: 300px;
+        height: auto;
+        
+        .info-card__title {
+          margin-top: 56px;
+          width: 150px;
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+        
+        .info-card__description {
+          align-items: center;
+          margin-top: 20px;
+          font-size: 14px;
+          width: 140px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $tablet) {
   .choosing {
     margin-top: 144px;
-
+    
     .choose-block {
       max-width: 100%;
-      max-height: 550px;
-
+      height: 550px;
+      
       .choose-block__info {
-        padding: 40px 75px 0;
+        padding: 40px 20px 0;
+        
+        .info-block__heading {
+          font-size: 30px;
+          margin-bottom: 15px;
+        }
+        
+        .info-block__description {
+          font-size: 14px;
+          max-width: 100%;
+          margin: 0;
+        }
       }
     }
     
     .choose-cards {
       flex-direction: column;
       align-items: center;
+      top: 300px;
       left: 20%;
       transform: translate(-12%);
-
+      
       .choose-card {
         flex-direction: row;
+        align-items: center;
         gap: 55px;
         max-width: 100%;
         max-height: 180px;
-        padding: 0px 48px 30px;
+        padding: 24px 48px 30px;
+        height: 370px;
+        
+        .info-card__title {
+          width: auto;
+          margin-top: 0;
+          text-align: left;
+        }
+        
+        .info-card__description {
+          text-align: left;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .choosing {
+    .choose-block {
+      height: 900px;
+
+      .choose-cards {
+        .choose-card {
+          flex-direction: column;
+          max-height: 400px;
+          justify-content: center;
+          gap: 0;
+          padding: 50px;
+        }
       }
     }
   }

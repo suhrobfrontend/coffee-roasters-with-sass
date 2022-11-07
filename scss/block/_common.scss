@@ -53,8 +53,15 @@ html {
   background-color: #66D2CF;
 }
 
-@media screen and (max-width: $tablet) {
+@media only screen and (max-width: $extra-tablet) {
   .container {
-    max-width: 92%;
+    max-width: $extra-tablet;
+    padding: 0 8px;
+  }
+}
+
+@media only screen and (max-width: $tablet) {
+  .container {
+    max-width: $tablet;
   }
 }
